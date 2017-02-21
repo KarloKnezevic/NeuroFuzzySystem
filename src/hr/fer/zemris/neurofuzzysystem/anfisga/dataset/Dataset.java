@@ -17,7 +17,7 @@ import hr.fer.zemris.neurofuzzysystem.anfisga.util.Pair;
  */
 public class Dataset {
 
-	private String dataFileName = "res/anfisga/NENRProjekt3.txt";
+	private String dataFileName = "res/anfisga/3dfunc.txt";
 
 	private List<Pair> trainingSet;
 
