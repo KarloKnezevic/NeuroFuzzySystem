@@ -26,7 +26,7 @@ public class Sigmoidal implements IConclusion {
 		data.setMemFun(y);
 		double inv = Math.log((1 - y) / y) / (-a) + c;
 
-		// provjera, je li dobiveno rjeĹˇenje u domeni
+		// provjera, je li dobiveno rješenje u domeni
 		if (inv >= data.getMinDomain() && inv <= data.getMaxDomain()) {
 			data.setX(inv);
 			return inv;
@@ -42,6 +42,6 @@ public class Sigmoidal implements IConclusion {
 
 	@Override
 	public String toString() {
-		return "Ď�[var:" + data.getDataName() + ", param:" + a + "," + c + "]";
+		return "Sigma[var:" + data.getDataName() + ", param:" + a + "," + c + "]";
 	}
 }

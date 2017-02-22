@@ -45,6 +45,6 @@ public class Pi implements IConclusion {
 
 	@Override
 	public String toString() {
-		return "â�Ź[var:" + data.getDataName() + ", param:" + alfa + "," + beta + "," + gamma + "," + delta + "]";
+		return "Pi[var:" + data.getDataName() + ", param:" + alfa + "," + beta + "," + gamma + "," + delta + "]";
 	}
 }
