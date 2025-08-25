@@ -61,7 +61,7 @@ public class FuzzySystemFitnessEvaluator implements FitnessEvaluator {
         return new Chromosome(genes);
     }
 
-    private TskInferenceSystem decode(Chromosome chromosome) {
+    TskInferenceSystem decode(Chromosome chromosome) {
         double[] genes = chromosome.genes();
         int geneIndex = 0;
 
