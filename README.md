@@ -2,6 +2,10 @@
 
 A modern Java 21 implementation of a Takagi-Sugeno-Kang (TSK) Fuzzy Inference System optimized by a Genetic Algorithm.
 
+![Build](https://github.com/KarloKnezevic/NeuroFuzzySystem/actions/workflows/build.yml/badge.svg)
+![Test](https://github.com/KarloKnezevic/NeuroFuzzySystem/actions/workflows/test.yml/badge.svg)
+
+
 ## 1. Project Overview
 
 This project provides a flexible and high-performance framework for solving complex regression and mapping problems using a genetically-optimized fuzzy inference system. It takes a classic neuro-fuzzy system and completely refactors it into a modular, testable, and extensible system using modern Java 21 features.
