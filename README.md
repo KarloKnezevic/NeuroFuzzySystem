@@ -1,6 +1,6 @@
 # Fuzzy-GA: Genetically-Optimized TSK Fuzzy Inference System
 
-A modern Java 21 implementation of a Takagi-Sugeno-Kang (TSK) Fuzzy Inference System optimized by a Genetic Algorithm.
+A modern Java 23 implementation of a Takagi-Sugeno-Kang (TSK) Fuzzy Inference System optimized by a Genetic Algorithm.
 
 ![Build](https://github.com/KarloKnezevic/NeuroFuzzySystem/actions/workflows/build.yml/badge.svg)
 ![Test](https://github.com/KarloKnezevic/NeuroFuzzySystem/actions/workflows/test.yml/badge.svg)
@@ -64,7 +64,7 @@ A detailed, non-technical explanation of the core concepts can be found in `SYST
 
 ### Prerequisites
 
-*   Java JDK 21+
+*   Java JDK 23+
 *   Apache Maven 3.8+
 
 ### Installation & Build
